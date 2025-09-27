@@ -1,0 +1,11 @@
+body {display: flex; justify-content: center; margin: 0;}
+p {margin: 0;}
+input {border: 0; text-align: center; font-weight: bold; font-size: large;}
+.Frame, .MainPage {width: 400px; height: 100vh; gap: 15px; 
+display: flex; flex-direction: column; align-items: center;}
+
+.Profile {background-color: #f4f4f4; width: 200px; height: 200px; border-radius: 50%;
+margin-top: 100px;}
+.Content {background-color: #f4f4f4; width: 80%; height: 50px; border-radius: 15px;
+}
+.Post {border: 3px solid goldenrod; width: 150px; height: 50px; border-radius: 15px; position: absolute; bottom: 5%; display: flex; justify-content: center; align-items: center; color: goldenrod;}
