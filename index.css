@@ -1,0 +1,51 @@
+body {display: flex; justify-content: center; margin: 0;}
+p {margin: 0;}
+input {border: 0; text-align: center; font-weight: bold; font-size: large;}
+[type="checkbox"] {
+    border: 2px solid grey;
+    accent-color: goldenrod;
+}
+input::placeholder {
+    font-size: small;
+}
+.Frame {
+    width: 360px; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    position: relative;
+}
+.MainPage {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+    position: absolute;
+    top: 15%;
+}
+
+.Profile {
+    background-color: #f4f4f4; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+}
+.Content {
+    background-color: #f4f4f4; 
+    width: 60%; 
+    height: 30px; 
+    border-radius: 15px;
+    display: none;
+}
+.Post {
+    border: 3px solid goldenrod; 
+    width: 100px; 
+    height: 30px; 
+    border-radius: 15px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: goldenrod;
+    position: fixed;
+    bottom: 5%;
+}
